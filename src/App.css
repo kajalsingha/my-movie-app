@@ -1,0 +1,97 @@
+
+
+.App {
+  text-align: center;
+}
+
+.Fav {
+  color: white;
+  font-size: 34px;
+}
+.span {
+  color: red;
+  font-weight: bold;
+}
+.Kkk {
+  
+  color: red;
+  font-weight: 200;
+}
+.App-text
+{
+  text-align: center;
+  color: #010316;
+  font-size: 22px;
+  
+}
+.Head {
+  text-align: center;
+  color:rgb(5, 44, 10);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.button{
+  font-size : 18px;
+text-align: center;
+color: white;
+  border-radius: 6px;
+  background: radial-gradient(rgb(14, 14, 65), rgb(82, 82, 212));
+}
+.App-header {
+  
+  background: linear-gradient(110deg, #d69d20 60%, #818b21 60% ) ;
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(122, 39, 6);
+}
+.Home {
+  
+background-color: #19191a;
+  
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+ 
+  font-size: calc(10px + 2vmin);
+  color: rgb(122, 39, 6);
+}
+
+
+.movie-app > .row {
+  background-color: #19191a;
+  color: white;
+overflow-x: auto;
+flex-wrap: nowrap;
+}
+
+.image-container {
+  text-align: center;
+  position: relative;
+  transition: transform 0.2s;
+}
+.image-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.image-container:hover .overlay{
+  opacity: 1;
+}
+.overlay {
+  position: absolute;
+  background: rgb(0,0,0,0,8);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 20px ;
+  font-weight: 1000;
+  padding: 100px;
+  text-align: center;
+}
